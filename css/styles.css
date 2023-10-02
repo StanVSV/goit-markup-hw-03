@@ -16,6 +16,29 @@ a {
     color: #2e2f42;
 }
 
+p,h1,h2,h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
 .nav-link-logo-blue {
     color:#4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -69,6 +92,7 @@ color: #404bbf;
 
 .hero {
     background-color: #2e2f42;
+    padding-bottom: 12px;
 }
 
 .hero-title {
