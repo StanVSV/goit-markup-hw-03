@@ -20,7 +20,7 @@ p,h1,h2,h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+ 
 img {
     display: block;
 }
@@ -223,16 +223,16 @@ color: #404bbf;
     padding-top: 120px;
 }
 
-.team-item {
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .team-list {
     display: flex;
     gap: 24px;
     padding:72px 156px 120px 156px;
+}
+
+.team-item {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -263,7 +263,7 @@ color: #404bbf;
 
 /**================our-portfolio================*/
 
-.portfolio-title {
+/*.portfolio-title {
     color: #2e2f42;
     text-align: center;
     font-size: 36px;
@@ -325,6 +325,51 @@ justify-content: center;
 align-items: flex-start;
 gap: 8px;
 align-self: stretch;
+}*/
+
+.portfolio-title {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    background-color: #fff;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding-top: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 72px 156px 120px 156px;
+}
+
+.portfolio-item {
+    width: calc((100% - 24px * 3) / 3);
+    flex-direction: column;
+}
+
+.portfolio-subtitle {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    border: 1px solid var(--CLOUD, #F4F4FD);
+    border-top: none;
+    border-bottom: none;
+}
+
+.portfolio-direction {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    border: 1px solid var(--CLOUD, #F4F4FD);
+    border-top: none;
+    background: var(--WHITE, #FFF);
 }
 
 /**=======================================*/
@@ -366,6 +411,6 @@ span {
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-top: 17.5px;
-}
+} 
 
 /**=======================================*/
