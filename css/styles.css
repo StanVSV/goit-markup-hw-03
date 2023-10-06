@@ -4,6 +4,17 @@ body {
     background-color: #ffffff;
 }
 
+p,h1,h2,h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 ul {
     list-style: none;
 }
@@ -16,17 +27,6 @@ a {
     color: #2e2f42;
 }
 
-p,h1,h2,h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
- 
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
 img {
     display: block;
 }
@@ -37,6 +37,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 2px solid red;
 }
 /*================header========================*/
 .header {
@@ -194,7 +195,7 @@ color: #404bbf;
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-section {
