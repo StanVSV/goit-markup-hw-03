@@ -52,6 +52,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .nav-link-logo {
@@ -128,7 +130,7 @@ color: #404bbf;
 
 .hero-container {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 188px 0; 
 }
 
 .hero-title {
