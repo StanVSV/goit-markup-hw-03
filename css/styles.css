@@ -73,17 +73,15 @@ img {
     align-items: center;
 }
 
+span {
+    color: #2e2f42;
+}
+
 .nav-list {
     display: flex;
     gap: 40px;
     padding: 24px 0;
 }
-
-span {
-    color: #2e2f42;
-}
-
-
 
 .nav-link {
     color: #2e2f42;
@@ -91,6 +89,7 @@ span {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -130,7 +129,6 @@ color: #404bbf;
 }
 
 .hero-container {
-    padding: 188px 0; 
 }
 
 .hero-title {
@@ -140,7 +138,7 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin-left: 472px;
+    margin-right: 472px;
     margin-left: 472px;
     margin-bottom: 48px;
 }
