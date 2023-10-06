@@ -251,6 +251,7 @@ color: #404bbf;
 
 .team-img {
     flex-wrap: wrap;
+    object-fit: contain;
 }
 
 .name {
@@ -318,6 +319,7 @@ color: #404bbf;
 
 .portfolio-img {
     flex-wrap: wrap;
+    object-fit: contain;
 }
 
 .portfolio-subtitle {
@@ -326,6 +328,7 @@ color: #404bbf;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-direction {
@@ -387,14 +390,15 @@ color: #404bbf;
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 189.5px;
+    padding: 100px 0;
 }
 
 .footer-container {
 }
 
 .footer-logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
     color:#4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -419,7 +423,6 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
 } 
 
 /**=======================================*/
