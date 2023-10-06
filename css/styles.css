@@ -42,6 +42,7 @@ img {
 /*================header========================*/
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .nav-link-logo-blue {
@@ -126,10 +127,10 @@ color: #404bbf;
 
 .hero {
     text-align: center;
+    background-color: #2e2f42;
 }
 
 .hero-container {
-    background-color: #2e2f42;
     padding: 188px 0; 
 }
 
