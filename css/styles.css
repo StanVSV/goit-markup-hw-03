@@ -127,6 +127,7 @@ color: #404bbf;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    text-align: center;
 }
 
 .container {
@@ -141,10 +142,10 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .hero-bye-btn {
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
