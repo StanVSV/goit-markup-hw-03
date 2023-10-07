@@ -146,6 +146,8 @@ color: #404bbf;
 }
 
 .hero-bye-btn {
+    display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
