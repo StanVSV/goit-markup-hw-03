@@ -123,7 +123,7 @@ color: #404bbf;
 
 /**================main-hero================*/
 
-/*.hero {
+.hero {
     text-align: center;
     background-color: #2e2f42;
 }
@@ -168,9 +168,9 @@ color: #404bbf;
 .hero-bye-btn:hover,
 .hero-bye-btn:focus {
     background-color: #404BBF; 
-}*/
+}
 
-.hero {
+/*.hero {
     background-color: #2e2f42;
 }
 
@@ -212,7 +212,7 @@ color: #404bbf;
 .hero-bye-btn:hover,
 .hero-bye-btn:focus {
     background-color: #404BBF; 
-}
+}*/
 
 
 
