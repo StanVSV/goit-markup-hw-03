@@ -33,7 +33,7 @@ img {
 
 
 .container {
-    max-width: 1158px;
+    width: 1470px;
     padding: 0 15px;
     margin: 0 auto;
     outline: 2px solid red;
@@ -123,12 +123,59 @@ color: #404bbf;
 
 /**================main-hero================*/
 
-.hero {
+/*.hero {
     text-align: center;
     background-color: #2e2f42;
 }
 
 .hero-container {
+    padding: 188px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+
+}
+
+.btn {
+    align-self: flex-end;
+}
+
+.hero-bye-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.hero-bye-btn:hover,
+.hero-bye-btn:focus {
+    background-color: #404BBF; 
+}*/
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-container {
+    padding: 188px 472px 0 472px;
 }
 
 .hero-title {
@@ -138,34 +185,35 @@ color: #404bbf;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin-right: 472px;
-    margin-left: 472px;
     margin-bottom: 48px;
 }
 
 .hero-bye-btn {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    margin: 0 635px 0 636px;
     color: #fff;
     font-size: 16px;
-    background-color: #4d5ae5;
+    background: #4d5ae5;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
-    align-items: flex-start;
+
     gap: 10px;
     border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+}
+
+.btn {
+    padding: 0 164px  188px 163px;
 }
 
 .hero-bye-btn:hover,
 .hero-bye-btn:focus {
     background-color: #404BBF; 
 }
+
 
 
 /**=======================================*/
@@ -193,7 +241,7 @@ color: #404bbf;
 }
 
 .features-item {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .features-section {
