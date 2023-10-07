@@ -183,9 +183,8 @@ color: #404bbf;
 }
 
 .features-list {
-    padding-right: 156px;
-    padding-left: 156px;
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
 }
 
